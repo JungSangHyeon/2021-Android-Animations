@@ -1,19 +1,8 @@
-package com.example.newkatiui
-
-import android.animation.Animator
-import android.animation.AnimatorListenerAdapter
-import android.animation.ObjectAnimator
-import android.annotation.SuppressLint
-import android.graphics.Path
-import android.view.View
-import android.view.ViewGroup
-import android.view.ViewTreeObserver
-import android.widget.TextView
 
 class BubbleEffector(private val targetView: ViewGroup){
 
     // Animation Attribute
-    private val minMoveTime = 3000
+    private val minMoveTime = 3000 // ms
     private val maxMoveTime = 10000
     private val bubbleViewNum = 12
 
